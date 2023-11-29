@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mosf bvg</title>
-    <link>/de/</link>
+    <link>https://mosf-bvg-blog.devtm.top/de/</link>
     <description>Recent content on mosf bvg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="/de/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mosf-bvg-blog.devtm.top/de/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
