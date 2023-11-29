@@ -1,4 +1,128 @@
-<!doctype html><html lang=zh><head><title>Emoji Support</title>
-<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="origin"><meta http-equiv=Content-Security-Policy content="upgrade-insecure-requests"><meta name=description content="至此,已成bug"><meta name=generator content="Hugo 0.120.4"><link rel=stylesheet href=/css/main.min.c91ded12b5659b81dfdd81f026d210c061b28eaab3d34d8e80ca797a0d7a419db3793a933235f22fe21b7fa2fc0cfb04d289306be21e556993ae9fceaf2ecc9b.css integrity="sha512-yR3tErVlm4Hf3YHwJtIQwGGyjqqz002OgMp5eg16QZ2zeTqTMjXyL+Ibf6L8DPsE0okwa+IeVWmTrp/Ory7Mmw=="><noscript><link rel=stylesheet href=/css/noscript.min.e6f1ba19697eecfddfbf83ff7181b98181998f163d7005f6ae923451556bf85bef357f43dffe1522b92c1efab7fb38441f479e39b7a03e4313a8ef12b0b01f65.css integrity="sha512-5vG6GWl+7P3fv4P/cYG5gYGZjxY9cAX2rpI0UVVr+FvvNX9D3/4VIrksHvq3+zhEH0eeObegPkMTqO8SsLAfZQ=="></noscript><meta name=twitter:card content="summary"><meta name=twitter:title content="Emoji Support"><meta name=twitter:description content="Guide to emoji usage in Hugo"><meta property="og:title" content="Emoji Support"><meta property="og:description" content="Guide to emoji usage in Hugo"><meta property="og:type" content="article"><meta property="og:url" content="/posts/emoji-support/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2019-03-05T00:00:00+00:00"><meta property="article:modified_time" content="2019-03-05T00:00:00+00:00"></head><body class="landing is-preload"><div id=page-wrapper><header id=header><h1><a href>mosf bvg</a></h1><nav id=nav><ul><li class=special><a href=#menu class=menuToggle aria-label=主页><span>主页</span></a><div id=menu><ul><li><a href=/>Home</a></li><li><a href=/posts>Posts</a></li></ul></div></li></ul></nav></header><article id=main><header><h2>Emoji Support</h2></header><section class="wrapper style5"><div class=inner><p>Emoji can be enabled in a Hugo project in a number of ways.</p><p>The <a href=https://gohugo.io/functions/emojify/><code>emojify</code></a> function can be called directly in templates or <a href=https://gohugo.io/templates/shortcode-templates/#inline-shortcodes>Inline Shortcodes</a>.</p><p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href=https://gohugo.io/getting-started/configuration/>configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p><p>The <a href=http://www.emoji-cheat-sheet.com/>Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p><hr><p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>.emoji {
-</span></span><span style=display:flex><span>  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div></div></section></article><footer id=footer><ul class=icons></ul><ul class=copyright><li>&copy; 2023 mosf bvg</li><li>Design: <a href=http://html5up.net>HTML5 UP</a></li></ul></footer></div><script src=/js/bundle.min.3dd83f7e34ac6a1b1398c09b8f874a7bd08e73eb9a26caea8f17773321350938aa3d9d29ad9675c5df36836d93fad0097d1dbcd214c318ee9c9d7657e9660cd1.js integrity="sha512-Pdg/fjSsahsTmMCbj4dKe9COc+uaJsrqjxd3MyE1CTiqPZ0prZZ1xd82g22T+tAJfR280hTDGO6cnXZX6WYM0Q=="></script></body></html>
+<!DOCTYPE HTML>
+
+<html lang="zh">
+	<head>
+	  <title>Emoji Support</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="referrer" content="origin">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+	
+
+    <meta name="description" content="至此,已成bug">
+    
+    <meta name="generator" content="Hugo 0.120.4">
+
+    
+<link rel="stylesheet" href="/css/main.min.c91ded12b5659b81dfdd81f026d210c061b28eaab3d34d8e80ca797a0d7a419db3793a933235f22fe21b7fa2fc0cfb04d289306be21e556993ae9fceaf2ecc9b.css" integrity="sha512-yR3tErVlm4Hf3YHwJtIQwGGyjqqz002OgMp5eg16QZ2zeTqTMjXyL&#43;Ibf6L8DPsE0okwa&#43;IeVWmTrp/Ory7Mmw==">
+
+
+<noscript><link rel="stylesheet" href="/css/noscript.min.e6f1ba19697eecfddfbf83ff7181b98181998f163d7005f6ae923451556bf85bef357f43dffe1522b92c1efab7fb38441f479e39b7a03e4313a8ef12b0b01f65.css" integrity="sha512-5vG6GWl&#43;7P3fv4P/cYG5gYGZjxY9cAX2rpI0UVVr&#43;FvvNX9D3/4VIrksHvq3&#43;zhEH0eeObegPkMTqO8SsLAfZQ=="></noscript>
+
+
+
+
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Emoji Support"/>
+<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
+
+    <meta property="og:title" content="Emoji Support" />
+<meta property="og:description" content="Guide to emoji usage in Hugo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mosf-bvg-blog.devtm.top/posts/emoji-support/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-03-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-05T00:00:00+00:00" />
+
+
+
+    
+	</head>
+	<body class="landing is-preload">
+
+		
+			<div id="page-wrapper">
+
+				
+          <header id="header">
+            <h1><a href="https://mosf-bvg-blog.devtm.top/">mosf bvg</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+                  <a href="#menu" class="menuToggle" aria-label='主页'><span>主页</span></a>
+									<div id="menu">
+										<ul>
+				              
+				              <li><a href="/">Home</a></li>
+				              
+				              <li><a href="/posts">Posts</a></li>
+				              
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+<article id="main">
+  <header >
+    <h2>Emoji Support</h2>
+    
+	</header>
+	<section class="wrapper style5">
+		<div class="inner">
+      <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<!-- raw HTML omitted -->
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
+</span></span><span style="display:flex;"><span>  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+		</div>
+	</section>
+</article>
+				
+					<footer id="footer">
+						<ul class="icons">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+
+						</ul>
+						<ul class="copyright">
+              <li>&copy; 2023 mosf bvg</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/bundle.min.3dd83f7e34ac6a1b1398c09b8f874a7bd08e73eb9a26caea8f17773321350938aa3d9d29ad9675c5df36836d93fad0097d1dbcd214c318ee9c9d7657e9660cd1.js" integrity="sha512-Pdg/fjSsahsTmMCbj4dKe9COc&#43;uaJsrqjxd3MyE1CTiqPZ0prZZ1xd82g22T&#43;tAJfR280hTDGO6cnXZX6WYM0Q=="></script>
+
+
+
+	</body>
+</html>
+
