@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mosf-bvg-blog.devtm.top/en/categories/</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mosf-bvg-blog.devtm.top/de/categories/"
+                href="/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://mosf-bvg-blog.devtm.top/es/categories/"
+                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mosf-bvg-blog.devtm.top/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mosf-bvg-blog.devtm.top/en/categories/"
+                href="/en/categories/"
                 />
   </url><url>
-    <loc>https://mosf-bvg-blog.devtm.top/en/</loc>
+    <loc>/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mosf-bvg-blog.devtm.top/de/"
+                href="/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://mosf-bvg-blog.devtm.top/es/"
+                href="/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mosf-bvg-blog.devtm.top/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mosf-bvg-blog.devtm.top/en/"
+                href="/en/"
                 />
   </url><url>
-    <loc>https://mosf-bvg-blog.devtm.top/en/series/</loc>
+    <loc>/en/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mosf-bvg-blog.devtm.top/de/series/"
+                href="/de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://mosf-bvg-blog.devtm.top/es/series/"
+                href="/es/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mosf-bvg-blog.devtm.top/series/"
+                href="/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mosf-bvg-blog.devtm.top/en/series/"
+                href="/en/series/"
                 />
   </url><url>
-    <loc>https://mosf-bvg-blog.devtm.top/en/tags/</loc>
+    <loc>/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mosf-bvg-blog.devtm.top/de/tags/"
+                href="/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://mosf-bvg-blog.devtm.top/es/tags/"
+                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mosf-bvg-blog.devtm.top/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mosf-bvg-blog.devtm.top/en/tags/"
+                href="/en/tags/"
                 />
   </url>
 </urlset>
